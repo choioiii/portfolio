@@ -1,0 +1,880 @@
+
+@media screen and ( min-width: 1340px) {
+    #profile {
+        width: 1340px;
+        margin: 0 auto;
+        background-color: #fafafa;
+    }
+    #profile_image { 
+        width: 545px;
+    }
+    #profile_image > li > a {
+        width: 214px; height: 214px;
+        background-image: url(../images/profile_image.png) ;
+        text-indent: -6000px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 208px;
+        margin-top: 71px;
+    }
+    #profile_field> ul {
+        display: flex;
+    }
+
+    /* 로고 &로그인 & 좋아요 & 장바구니*/
+    #right_menu_top {
+        display: flex;
+    }
+    #right_menu_top > li:nth-of-type(1) > a {
+        width: 250px; height: 125px;
+        background: url(../images/balansa_logo.png);
+        text-indent: -6000px;
+        overflow: hidden;
+        margin-top: 71px;
+        margin-left: 125px;
+    }
+    #right_menu_top > li:nth-of-type(2) > a{
+        margin-top: 167px;
+        margin-left: 50px;
+        margin-right: 10px;
+        width: 113px; height: 30px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    #right_menu_top > li:nth-of-type(3) > a{
+        margin-top: 167px;
+        margin-right: 10px;
+        width: 113px; height: 30px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    #right_menu_top > li:nth-of-type(4) > a{
+        margin-top: 167px;       
+        width: 113px; height: 30px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+    }
+
+    /* 3 ARCHES/ RAre-STOCK / PUSAN ~ */
+    #right_menu_bottom > li:nth-of-type(1){
+        margin-left: 125px;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #tag{
+        
+        margin-left: 125px;
+        display: flex;
+    }
+    #tag > li > a{
+        color: #00376b;
+        margin-right: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    #right_menu_bottom > li:last-child > a{
+        color: #00376b;
+        margin-left: 125px;
+        font-size:16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+
+/* NEW ARRIVAL */
+@media screen and (min-width:1340px) {
+    #new_arrival{
+        width:1340px;
+        margin:0 auto;
+        display: flex;
+        background: #fafafa;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* 스와이퍼영역 */
+    .new_arrival_swiper{
+        width:612px; height: 400px;
+        background-color: #fafafa; 
+        margin-left: 85px;
+    }
+    .tb{display: none;}
+    /* //스와이퍼영역 */
+    #arrivial_text_box {
+        width: 477px; height: 262px;
+    }
+    #arrival_title > a {
+        font-size: 60px;
+        font-weight: 900;
+        margin-left: 30px;
+        line-height: 60px;
+        text-decoration: none;
+    }
+    #arrival_text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-left: 30px;
+        margin-top: 50px;
+    
+    }
+    #arrival_more > a{
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 30px; 
+        margin-top: 55px;
+        text-indent: -6000px; overflow: hidden;
+    }
+}   
+
+/* REEBOK */
+@media screen and (min-width: 1340px){
+    #reebok{
+        width:1340px;
+        margin:0 auto;
+        display: flex;
+        background: #fafafa;
+        padding-bottom: 100px;
+    }
+    /* 스와이퍼 영역 */
+    #reebok_swiper{
+        width: 612px;
+        height: 439px;
+        background-color: #fafafa;
+        margin-left: 120px;
+    }
+    /* //스와이퍼 영역 */
+    .reebok_logo > a {
+        width: 438px; height: 111px;
+        margin-left: 85px;
+        background: url(../images/reebok_balansa.png);
+    }
+    .reebok_text{
+        width: 381px; height: 209px;
+        margin-left: 85px;
+        background: url(../images/life_is_short.png);
+    }
+    .reebok_more{
+        width: 175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 85px;
+        margin-top: 24px;
+        text-indent: -6000px; overflow: hidden;
+    }
+
+    /* ABOUT_US */
+    .about_us_text{
+        width: 390px; height:300px;
+    }
+    #about_us{
+        width: 1340px;
+        margin: 0 auto;
+        display: flex;
+        background-color: #fafafa;
+        padding-bottom: 70px;
+    }
+    .about_us_image{
+        width:612px; height: 400px;
+        background: url(../images/about_us.png) center;
+        margin-left: 85px;
+    }
+    .about_us_title > a{
+        letter-spacing: -1px;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 900;
+        margin-left: 30px;
+        text-decoration: none;
+    }
+    .about_us_mean{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .about_us_more > a {
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 30px; 
+        margin-top: 50px;
+        text-indent: -6000px; overflow: hidden;
+    }
+
+    /* BEST ITEM */
+    #best_item{
+        width: 1340px;
+        margin: 0 auto;
+        background-color: #fafafa;
+        padding-bottom: 70px;
+    }
+    #best_item > h2 {
+        text-align: center;
+        padding-bottom: 70px;
+        font-size: 36px;
+        font-weight: 900;
+    }
+    #best_item > ul {
+        margin-left: 85px;
+        margin-right: 85px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #best_item > ul > li > article{
+        width: 374px;
+        height: 461px;
+    }
+    #best_item > ul > li > article > div > a{
+        background: url(../images/best_item01.png);
+        width: 374px; height: 374px;
+    }
+    #best_item > ul > li:nth-of-type(2) > article > div > a{
+        background: url(../images/best_item02.png);
+    }
+    #best_item > ul > li:nth-of-type(3) > article > div > a{
+        background: url(../images/best_item03.png);
+    }
+    #best_item > ul > li:nth-of-type(4) > article > div > a{
+        background: url(../images/best_item04.png);
+    }
+    #best_item > ul > li:nth-of-type(5) > article > div > a{
+        background: url(../images/best_item05.png);
+    }
+    #best_item > ul > li:nth-of-type(6) > article > div > a{
+        background: url(../images/best_item06.png);
+    }
+    #best_item > ul > li > article > p > a {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+    #best_item > ul > li > article > p#price {
+        color: #949494;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .best_item_more > a{
+        margin-left: 583px;
+        background: url(../images/best_item_more.png); 
+        width: 175px; height: 38px; 
+    }
+    
+    /* MAIN_FOOTER */
+    #footer{ width: 100%; background-color: #eee;}
+    #main_footer{
+        width: 1340px;
+        margin: 0 auto;
+        background-color: #eee;
+        padding-top: 30px;
+    }
+    .footer_card { display: flex; justify-content: center;}
+    .footer_card > li:nth-of-type(1){
+        width: 86px; height: 28px;
+        background: url(../images/visa.png);
+        margin-top: 10px;
+    }
+    .footer_card > li:nth-of-type(2){
+        width: 80px; height: 48px;
+        background: url(../images/mastercard.png);
+        margin-right: 10px; margin-left: 10px;
+    }
+    .footer_card > li:nth-of-type(3){
+        width: 131px; height: 33px;
+        background: url(../images/paypal.png);
+        margin-top: 7px;
+    }
+    .footer_info{
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .footer_info > ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/***********************[tb]***************************/
+
+
+@media screen and ( max-width: 1339px) {
+    #profile {
+        width: 768px;
+        margin: 0 auto;
+        background-color: #fafafa;
+    }
+    #profile_image { 
+        width: 545px;
+    }
+    #profile_image > li > a {
+        width: 141px; height: 141px;
+        background-image: url(../images/profile_image_tb.png) ;
+        text-indent: -6000px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 81px;
+        margin-top: 83px;
+    }
+    #profile_field> ul {
+        display: flex;
+    }
+
+    /* 로고 &로그인 & 좋아요 & 장바구니*/
+    #right_menu_top {
+        display: flex;
+    }
+    #right_menu_top > li:nth-of-type(1) > a {
+        width: 164px; height: 83px;
+        background: url(../images/balansa_logo_tb.png);
+        text-indent: -6000px;
+        overflow: hidden;
+        margin-top: 83px;
+        margin-left: 81px;
+    }
+    #right_menu_top > li:nth-of-type(2) > a{
+        margin-top: 167px;
+        margin-left: 20px;
+        margin-right: 7px;
+        width: 80px; height: 25px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+    }
+    #right_menu_top > li:nth-of-type(3) > a{
+        margin-top: 167px;
+        margin-right: 7px;
+        width: 80px; height: 25px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+    }
+    #right_menu_top > li:nth-of-type(4) > a{
+        margin-top: 167px;       
+        width: 80px; height: 25px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+    }
+
+    /* 3 ARCHES/ RAre-STOCK / PUSAN ~ */
+    #right_menu_bottom > li:nth-of-type(1){
+        margin-left: 81px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #tag{        
+        margin-left: 81px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #tag > li > a{
+        color: #00376b;
+        margin-right: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    #right_menu_bottom > li:last-child > a{
+        color: #00376b;
+        margin-left: 81px;
+        font-size:14px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+/* NEW ARRIVAL */
+@media screen and (max-width:1339px) {
+    #new_arrival{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        width:768px;
+        height:262px;
+        margin:0 auto;
+        display: flex;
+        background: #fafafa;
+    }
+    /* 스와이퍼영역 */
+    .new_arrival_swiper{
+        width:402px; height: 262px;
+        background-color: #fafafa;
+        margin-left: 20px;
+    }
+    .pc{display: none;}
+    /* //스와이퍼영역 */
+    #arrivial_text_box { width: 318px; height: 175px;} 
+    #arrival_title > a {
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 20px;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    #arrival_text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #arrival_more > a{
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 20px; 
+        margin-top: 20px;
+        text-indent: -6000px; overflow: hidden;
+    }
+}  
+
+/* REEBOK */
+@media screen and (max-width: 1339px){
+    #reebok{
+        width: 768px;
+        height: 289px;
+        margin:0 auto;
+        display: flex;
+        background: #fafafa;
+        padding-bottom: 70px;
+    }
+    /* 스와이퍼 영역 */
+    #reebok_swiper{
+        width: 403px;
+        height: 289px;
+        background-color: #fafafa;
+        margin-left: 38px;
+    }
+    /* //스와이퍼 영역 */
+    .reebok_logo > a {
+        width: 287px; height: 73px;
+        margin-left: 20px;
+        background: url(../images/reebok_balansa_tb.png);
+    }
+    .reebok_text{
+        width: 250px; height: 139px;
+        margin-left: 20px;
+        background: url(../images/life_is_short_tb.png);
+    }
+    .reebok_more{
+        width: 175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 20px;
+        margin-top: 24px;
+        text-indent: -6000px; overflow: hidden;
+    }
+
+    /* ABOUT_US */
+    .about_us_text{
+        width: 318px;
+    }
+    #about_us{
+        width: 768px;
+        height: 262px;
+        margin: 0 auto;
+        display: flex;
+        background-color: #fafafa;
+        padding-bottom: 35px;
+    }
+    .about_us_image{
+        width:402px; height: 262px;
+        background: url(../images/about_us_tb.png) center;
+        margin-left: 20px;
+    }
+    .about_us_title > a{
+        letter-spacing: -1px;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 900;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+    .about_us_mean{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .about_us_more > a {
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 20px; 
+        margin-top: 30px;
+        text-indent: -6000px; overflow: hidden;
+    }
+
+    /* BEST ITEM */
+    #best_item{
+        width: 768px;
+        margin: 0 auto;
+        background-color: #fafafa;
+        padding-bottom: 70px;
+    }
+    #best_item > h2 {
+        text-align: center;
+        padding-bottom: 35px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    #best_item > ul {
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #best_item > ul > li > article{
+        width: 229px;
+        height: 286px;
+    }
+    #best_item > ul > li > article > div > a{
+        background: url(../images/best_item01_tb.png);
+        width: 229px; height: 228px;
+    }
+    #best_item > ul > li:nth-of-type(2) > article > div > a{
+        background: url(../images/best_item02_tb.png);
+    }
+    #best_item > ul > lsi:nth-of-type(3) > article > div > a{
+        background: url(../images/best_item03_tb.png);
+    }
+    #best_item > ul > li:nth-of-type(4) > article > div > a{
+        background: url(../images/best_item04_tb.png);
+    }
+    #best_item > ul > li:nth-of-type(5) > article > div > a{
+        background: url(../images/best_item05_tb.png);
+    }
+    #best_item > ul > li:nth-of-type(6) > article > div > a{
+        background: url(../images/best_item06_tb.png);
+    }
+    #best_item > ul > li > article > p > a {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+    #best_item > ul > li > article > p#price {
+        color: #949494;
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .best_item_more > a{
+        margin-top: 50px;
+        margin-left: 297px;
+        background: url(../images/best_item_more.png); 
+        width: 175px; height: 38px; 
+    }
+
+    /* MAIN_FOOTER */
+    #footer{ width: 100%; background-color: #eee;}
+    #main_footer{
+        width: 768px;
+        margin: 0 auto;
+        background-color: #eee;
+        padding-top: 30px;
+    }
+    .footer_card { display: flex; justify-content: center;}
+    .footer_card > li:nth-of-type(1){
+        width: 86px; height: 28px;
+        background: url(../images/visa.png);
+        margin-top: 10px;
+    }
+    .footer_card > li:nth-of-type(2){
+        width: 80px; height: 48px;
+        background: url(../images/mastercard.png);
+        margin-right: 10px; margin-left: 10px;
+    }
+    .footer_card > li:nth-of-type(3){
+        width: 131px; height: 33px;
+        background: url(../images/paypal.png);
+        margin-top: 7px;
+    }
+    .footer_info{
+        text-align: center;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .footer_info > ul {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
+
+
+/*********************모바일 버전 tb & pc 숨기기******************************/
+
+@media screen and (min-width: 768px) {
+    #mobile_only {display: none;}
+}
+
+/************************(mb)**************************/
+
+
+/* mobile */
+@media screen and (max-width:767px) {
+    #profile { display: none;}
+    #new_arrival { display: none;}
+    #reebok {display: none;}
+    #about_us {display: none;}
+    #best_item {display: none;}
+}  
+
+@media screen and (max-width:767px) {
+    #mb_main_logo { 
+        width: 100%;
+        margin: 0 auto;
+        background: #fafafa;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    #mb_main_logo > a {
+        width: 164px; height: 83px;
+        background: url(../images/balansa_logo_tb.png);
+        text-indent: -6000px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    #mb_main_menu { 
+        width: 100%;
+        background: #fafafa;
+        padding-bottom: 10px;
+    }
+    #mb_main_menu > ul{
+        display: flex;
+        justify-content: center;
+    }
+    #mb_main_menu > ul > li > a{
+        margin-right: 3px;
+        margin-left: 3px;
+        width: 60px; height: 25px;
+        border: 1px solid #dbdbdb;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+    }
+
+    #mb_sub_bottom{
+        width: 100;
+        margin: 0 auto;
+        background: #fafafa;
+    }
+    .mb_sub_menu{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .mb_sub_menu > li:nth-of-type(1) {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .mb_sub_menu > ul > li > a{
+        color: #00376b;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .mb_sub_menu > li:nth-of-type(2) > a{
+        color: #00376b;
+        font-size:12px;
+        font-weight: 700;
+    }
+    
+    #mb_arrival{
+        width: 320px;
+        margin: 0 auto;
+    }
+    #mb_text_box > #mb_arrival_title > a{
+        font-size: 24px;
+        font-weight: 900;
+        margin-left: 15px;
+        line-height: 22px;
+        text-decoration: none;
+    }
+    #mb_arrival_text {
+        font-size: 14;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    #mb_arrival_more > a{
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 15px; 
+        margin-top: 20px;
+        text-indent: -6000px; overflow: hidden;
+    }
+    #reebok_info{
+        width: 320px; 
+        margin: 0 auto;
+    }
+    #reebok_info > ul > li:nth-of-type(1) > a{
+        width: 287px; height: 73px;
+        background: url(../images/reebok_balansa_tb.png);
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    #reebok_info > ul > li:nth-of-type(2) > a{
+        width: 250px; height: 139px;
+        background: url(../images/life_is_short_tb.png);
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    #reebok_info > ul > li:nth-of-type(2) > a{
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 15px; 
+        margin-top: 20px;
+    }
+    #mb_about_us{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .about_us_img{
+        width: 100%; height: 262px;
+        background: url(../images/about_us_tb.png) center;
+        margin-bottom: 20px;
+    }
+    .mb_about_us_title > a{
+        font-size: 24px;
+        font-weight: 900;
+        margin-left: 15px;
+        line-height: 22px;
+        text-decoration: none;
+        letter-spacing: -1px;
+    }
+    .mb_about_us_info {
+        font-size: 14;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    .mb_about_us_more > a{
+        width:175px; height: 38px;
+        background: url(../images/more.png);
+        margin-left: 15px; 
+        margin-top: 20px;
+    }
+
+    #sub_swiper3 > h2 > a{
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 22px;
+        text-decoration: none;
+        letter-spacing: -1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .best_item_info > p {
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        letter-spacing: -1px;
+    }
+    .best_item_info > span{
+        font-size: 14px;
+        color: #949494;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .mb_best_item_more {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .mb_best_item_more  > a{
+        width: 175px; height: 38px;
+        background-image: url(../images/best_item_more.png);
+        margin-left: 15px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    #main_footer{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #eee;
+        padding-top: 30px;
+    }
+    .footer_card { display: flex; justify-content: center;}
+    .footer_card > li:nth-of-type(1){
+        width: 86px; height: 28px;
+        background: url(../images/visa.png);
+        margin-top: 10px;
+    }
+    .footer_card > li:nth-of-type(2){
+        width: 80px; height: 48px;
+        background: url(../images/mastercard.png);
+        margin-right: 10px; margin-left: 10px;
+    }
+    .footer_card > li:nth-of-type(3){
+        width: 131px; height: 33px;
+        background: url(../images/paypal.png);
+        margin-top: 7px;
+    }
+    .footer_info{
+        text-align: center;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .footer_info > ul {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+} 

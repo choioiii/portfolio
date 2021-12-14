@@ -1,0 +1,94 @@
+/* common.css */
+
+/* Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess */
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  font: 13px / normal 'SpoqaHanSansNeo', sans-serif;
+  color: #000;
+}
+h1, h2, h3, h4, h5, h6{
+  font-size: 1.0rem;
+  font-weight: normal;
+}
+ul, ol, li{
+  list-style: none;
+}
+strong, b{
+  font-weight: normal;
+}
+em, i, address{
+  font-style: normal;
+}
+img, a, label{
+  display: block;
+  border: none;
+}
+fieldset, input, select, textarea, button{
+  border: none;
+  background: transparent;
+  border-radius: 0;
+	outline: none;
+}
+legend, hr, #toggle_search, #toggle_menu{
+	display: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+/**** CLASS STYLE ***************************/
+.skip, .blind{
+	display: block;
+	height: 0;
+	overflow: hidden;
+
+	position: absolute;
+	top: -6000px;
+}

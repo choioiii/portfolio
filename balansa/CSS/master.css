@@ -1,0 +1,80 @@
+@import url(common.css);
+@import url(header_style.css);
+@import url(contents_style.css);
+
+
+.new_arrival_swiper {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.new_arrival_swiper > .swiper-container {
+    width: 612px;
+    height: 400px;
+}
+
+
+#reebok_swiper{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#reebok_swiper > .swiper-container {
+    width: 612px;
+    height: 439px;
+}
+
+
+#sub_swiper {
+    position: relative;
+    width: 320px;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.swiper-sub > .swiper-wrapper >.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fafafa;
+}
+
+#sub_swiper2 {
+    position: relative;
+    width: 320px;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.swiper-sub2 > .swiper-wrapper >.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fafafa;
+}
+
+body{
+    width: 100%;
+    background:#fafafa;
+}
+
+#sub_swiper3 {
+    position: relative;
+    width: 320px;
+    height: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.swiper-sub3 > .swiper-wrapper >.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fafafa;
+}
+
+

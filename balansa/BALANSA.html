@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BALANSA</title>
+  <link rel="stylesheet" href="CSS/master.css" />
+  <link rel="stylesheet" href="CSS/swiper-bundle.css" />
+
+  <script src="js/menu_script.js" defer></script>
+</head>
+<body>
+  
+    <header id="main_header">
+            <!-- 로고 -->
+            <h1 class="logo"><a href="#">Balansa</a></h1>
+            <!-- 토글버튼 -->
+            <label class="menu" for="toggle_menu"></label>
+            <!-- 검색폼 -->
+            <input type="checkbox" id="toggle_search">
+            <label for="toggle_search" class="search"></label>
+            <div id="search_wrap">
+                <form action="">
+                    <fieldset>
+                        <legend>검색</legend>
+                        <input type="text" id="search_txt">
+                    </fieldset>
+                </form>
+            </div>  
+    </header>
+
+
+    <input type="checkbox" id="toggle_menu" />
+
+    <nav id="main_nav_wrap">
+        <ul id="top_nav_m">
+            <li id="login"><a href="#">로그인</a></li>
+            <li><a href="#">좋아요</a></li>
+            <li><a href="#">장바구니</a></li>
+        </ul>
+
+        <ul id="main_nav">
+              <li>
+                <span><a href="#">ALL</a></span>
+              </li>
+
+              <li>
+                <span><a href="#">OUTER</a></span>
+              </li>
+    
+              <li>
+                <span><a href="#">TOP</a></span>
+              </li>
+
+              <li>
+                <span><a href="#">BOTTOM</a></span>
+              </li>
+
+              <li>
+                <span><a href="#">HEADWEAR</a></span>
+              </li>
+
+              <li>
+                <span><a href="#">ACC</a></span>
+              </li>
+        </ul> 
+
+        <label class="btn_close" for="toggle_menu"></label>
+    </nav>
+
+
+
+<!-- 프로필/LOGO/로그인/좋아요/장바구니~  -->
+<section id="profile">
+  <div id="profile_field">    
+      <ul id="profile_image">
+          <li><a href="#">profile_image</a></li>
+
+          <li id="right_menu">
+              <ul id="right_menu_top">
+                  <li><a href="#">logo</a></li>
+                  <li><a href="#">로그인</a></li>
+                  <li><a href="#">좋아요</a></li>
+                  <li><a href="#">장바구니</a></li>
+              </ul>
+              
+              <ul id="right_menu_bottom">
+                  <li>3 ARCHES/ RAre-STOCK / PUSAN</li>
+                  <li>
+                      <ul id="tag">
+                          <li><a href="#">@soundshop_banlansa</a></li>
+                          <li><a href="#">@balansa.seoul</a></li>
+                          <li><a href="#">@soundskateboard </a></li>
+                          <li><a href="#">@sounddealer_university</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">balansa.co.kr</a></li>
+              </ul>
+          </li>
+      </ul>
+  </div>
+</section>
+
+<!--------------------------------[S]NEW ARRIVAL-->
+<div id="new_arrival">
+  <div class="new_arrival_swiper">
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#">
+            <img class="pc" src="images/arrival_swiper_01.png" alt="신제품1">
+            <img class="tb" src="images/arrival_swiper_01_tb.png" alt="신제품1">
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img class="pc" src="images/arrival_swiper_02.png" alt="신제품2">
+            <img class="tb" src="images/arrival_swiper_02_tb.png" alt="신제품2">
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img class="pc" src="images/arrival_swiper_03.png" alt="신제품3">
+            <img class="tb" src="images/arrival_swiper_03_tb.png" alt="신제품3">
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="#">
+            <img class="pc" src="images/arrival_swiper_04.png" alt="신제품4">
+            <img class="tb" src="images/arrival_swiper_04_tb.png" alt="신제품4">
+          </a>
+        </div>
+
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+  </div>
+
+  <div>
+    <ul id="arrivial_text_box" >
+      <li id="arrival_title"><a href="#">NEW<br/>ARRIVAL</a></li>
+      <li id="arrival_text">처음으로 고어텍스 기술을 이용하여 아웃도어 자켓을 만들었던,99년 전통        
+      프랑스 아웃도어 밀레의 빈티지를 바탕으로 만들어진 밀레 클래식과
+      사운드샵 발란사사가 협업한 첫번째 고어텍스 컬렉션
+      </li>
+      <li id="arrival_more"><a href="#">바로가기</a></li>
+    </ul>
+  </div>
+</div>
+<!--------------------------------[E]NEW ARRIVAL-->
+
+
+<!--------------------------------[S]REEBOK-->
+<div id="reebok">
+  <div>
+    <ul>
+      <li class="reebok_logo"><a href="#"></a></li>
+      <li class="reebok_text"></li>
+      <li class="reebok_more"><a href="#">바로가기</a></li>
+    </ul>
+  </div>
+
+  <div id="reebok_swiper">
+  <!-- Swiper -->
+  <div class="menu_list_wrap swiper-container swiper_reebok">
+    <div class="menu swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#">
+          <img class="pc" src="images/reebok_swiper_01.png" alt="리복발란사01"></a>
+          <img class="tb" src="images/reebok_swiper_01_tb.png" alt="리복발란사01"></a>
+        </div>
+
+      <div class="menu swiper-slide">
+        <a href="#">
+          <img class="pc" src="images/reebok_swiper_02.png" alt="리복발란사02"></a>
+          <img class="tb" src="images/reebok_swiper_02_tb.png" alt="리복발란사02"></a>
+      </div>
+
+      <div class="menu swiper-slide">
+        <a href="#">
+          <img class="pc" src="images/reebok_swiper_03.png" alt="리복발란사03"></a>
+          <img class="tb" src="images/reebok_swiper_03_tb.png" alt="리복발란사03"></a>
+      </div>  
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper_reebok', {
+      direction: 'vertical',
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+  </div>
+</div>
+<!--------------------------------[E]REEBOK-->
+
+
+<!--------------------------------[S]ABOUT US-->
+<div id="about_us">
+  <div class="about_us_image">
+    
+  </div>
+
+  <div class="about_us_text">
+    <ul>
+      <li class="about_us_title"><a href="#">ABOUT US</a></li>
+      <li class="about_us_mean">
+        균형을 뜻하며 발란사와 비슷한 어감을 지닌 'balance'
+        한자로 ‘얼룩 반(斑)’과 ‘어우러질 란(爛)’
+        여러 빛깔이 모여 아름다운 무늬를 이루어낸다</li>
+      <li class="about_us_more"><a href="#"></a></li>
+    </ul>
+  </div>
+</div>
+<!--------------------------------[E]ABOUT US-->
+
+<!--------------------------------[S]BEST ITEM-->
+<div id="best_item">
+  <h2>BEST ITEM</h2>
+
+  <ul>
+    <li>
+      <article>
+        <div><a href="#"></a></div>
+        <p><a href="#">ssb logo tee black</a></p>
+        <p id="price">PRICE 48,000원</p>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <div><a href="#"></a></div>
+        <p><a href="#">ssb logo tee white</a></p>
+        <p id="price">PRICE 48,000원</p>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <div><a href="#"></a></div>
+        <p><a href="#">Quirky Devil Lightercase Blue</a></p>
+        <p id="price">PRICE 21,000원</p>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <div><a href="#"></a></div>
+        <p><a href="#">Budamunk - Buda Session Mixtape Vol.03 [MIX CD]</a></p>
+        <p id="price">PRICE 28,000원</p>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <div><a href="#"></a></div>
+        <p><a href="#">Balansa safety hand cleaner</a></p>
+        <p id="price">PRICE 18,000원</p>
+      </article>
+    </li>
+
+    <li>
+      <article>
+        <div><a href="#"></a></div>
+        <p><a href="#">balansa×다이칸야마 츠타야 서점「JUN INAGAWA 토트」white</a></p>
+        <p id="price">PRICE 59,000원</p>
+      </article>
+    </li>
+  </ul>
+
+  <div class="best_item_more"><a href="#"></a></div>
+
+</div>
+  
+
+<!---------------------------------Mobile_only------------------------> 
+<div id="mobile_only">
+  <div id="mb_main_logo">
+    <a href="#">logo</a>
+  </div>
+
+
+  <div id="mb_main_menu">
+    <ul>
+      <li><a href="#">로그인</a></li>
+      <li><a href="#">장바구니</a></li>
+      <li><a href="#">좋아요</a></li>
+    </ul>
+  </div>
+
+  <div id="mb_sub_bottom">
+    <ul class="mb_sub_menu">
+      <li>3 ARCHES/ RAre-STOCK / PUSAN</li>
+          <ul>
+              <li><a href="#">@soundshop_banlansa</a></li>
+              <li><a href="#">@balansa.seoul</a></li>
+              <li><a href="#">@soundskateboard </a></li>
+              <li><a href="#">@sounddealer_university</a></li>
+          </ul>
+      </li>
+      <li><a href="#">balansa.co.kr</a></li>
+    </ul>
+  </div>
+
+  <!---mb_swiper--->  
+  <section id="sub_swiper">
+      <!-- Swiper -->
+    <div class="swiper-sub">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/arrival_swiper_01_mb.png" alt="신제품1">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/arrival_swiper_02_mb.png" alt="신제품2">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/arrival_swiper_03_mb.png" alt="신제품3">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/arrival_swiper_04_mb.png" alt="신제품4">
+          </a>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-sub', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+      });
+    </script>
+  </section>
+  <!---//mb_swiper--->  
+
+  <div id="mb_arrival">
+    <ul id="mb_text_box" >
+      <li id="mb_arrival_title"><a href="#">NEW<br/>ARRIVAL</a></li>
+      <li id="mb_arrival_text">처음으로 고어텍스 기술을 이용하여 아웃도어 자켓을 만들었던,99년 전통        
+      프랑스 아웃도어 밀레의 빈티지를 바탕으로 만들어진 밀레 클래식과
+      사운드샵 발란사사가 협업한 첫번째 고어텍스 컬렉션
+      </li>
+      <li id="mb_arrival_more"><a href="#">바로가기</a></li>
+    </ul>
+  </div>
+
+  <!---mb_swiper2--->  
+  <section id="sub_swiper2">
+    <!-- Swiper -->
+  <div class="swiper-sub2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/reebok_swiper_01_mb.png" alt="리복발란사01">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/reebok_swiper_02_mb.png" alt="리복발란사02">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/reebok_swiper_03_mb.png" alt="리복발란사03">
+        </a>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-sub2', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+    });
+  </script>
+  </section>
+  <!---//mb_swiper2--->
+
+  <div id="reebok_info">
+    <ul>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+
+  <div id="mb_about_us">
+    <div class="about_us_img">
+    </div>
+
+    <div class="mb_about_us_title">
+      <a href="#">ABOUT US</a>
+    </div>
+
+    <div class="mb_about_us_info">
+      균형을 뜻하며 발란사와 비슷한 어감을 지닌 'balance'
+        한자로 ‘얼룩 반(斑)’과 ‘어우러질 란(爛)’
+        여러 빛깔이 모여 아름다운 무늬를 이루어낸다
+    </div>
+
+    <div class="mb_about_us_more">
+      <a href="#"></a>
+    </div>
+  </div>
+
+  <!---mb_swiper3--->  
+  <section id="sub_swiper3">
+    <h2><a href="#">BEST ITEM</a></h2>
+    <!-- Swiper -->
+    <div class="swiper-sub3">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/best_item01_mb.png" alt="베스트01">
+              <article class="best_item_info">
+                <p>ssb logo tee black</p>
+                <span>PRICE 48,000원</span>
+              </article>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/best_item02_mb.png" alt="베스트02">
+              <article class="best_item_info">
+                <p>ssb logo tee white</p>
+                <span>PRICE 48,000원</span>
+              </article>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/best_item03_mb.png" alt="베스트03">
+              <article class="best_item_info">
+                <p>Quirky Devil Lightercase Blue</p>
+                <span>PRICE 21,000원</span>
+              </article>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/best_item04_mb.png" alt="베스트04">
+              <article class="best_item_info">
+                <p>Budamunk - Buda Session Mixtape Vol.03 [MIX CD]</p>
+                <span>PRICE 28,000원</span>
+              </article>  
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/best_item05_mb.png" alt="베스트05">
+              <article class="best_item_info">
+                <p>Balansa safety hand cleaner</p>
+                <span>PRICE 18,000원</span>
+              </article> 
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <img src="./images/best_item06_mb.png" alt="베스트06">
+              <article class="best_item_info">
+                <p>balansa×다이칸야마 츠타야 서점「JUN INAGAWA 토트」white</p>
+                <span>PRICE 59,000원</span>
+              </article>
+          </a>
+        </div>
+        
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-sub3', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+      });
+    </script>
+  </section> 
+  <!---//mb_swiper3--->  
+  <div class="mb_best_item_more"><a href="#"></a></div>
+
+</div><!--mobile_only End//--------------------------------------->
+
+
+  <section id="footer">
+    <footer id="main_footer">
+      <div>
+        <ul class="footer_card">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="footer_info">
+        <ul>
+          <li>company/balansa</li>
+        </ul>
+
+        <ul>
+          <li>add / office & showroom - 18, Seojeon-ro 37beon-gil, Busanjin-gu, Busan, Republic of Korea</li>
+          <li>store - 37, Jeonpo-daero 255beon-gil, Busanjin-gu, Busan, Republic of Korea</li>
+        </ul>
+
+        <ul>
+          <li>business license / 617-26-95305 director / jeehoon kim</li>
+          <li>tel /070-8733-0510 email / teambalansa@gmail.com</li>
+        </ul>
+
+        <ul>
+          <li>Network licences / (simplified taxpayer)</li>
+          <li>Copyright © 2008-2020 balansa. all rights Reserved</li>
+        </ul>
+      </div>
+    </footer>
+  </section>
+    
+</body>
+</html>

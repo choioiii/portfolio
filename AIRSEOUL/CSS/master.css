@@ -1,0 +1,177 @@
+@import url( common.css);
+@import url( header_pc_style.css);
+@import url( header_tb_style.css);
+@import url( ticket_stlye.css);
+@import url( contents_style.css);
+
+
+    #visual_img {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    #visual_img .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and ( min-width: 1340px){
+    .pc1 > a {
+        width: 100%; height: 480px;
+        background: url(../images/swiper1.png) center;
+    }
+    .pc2 > a {
+        width: 100%; height: 480px;
+        background: url(../images/swiper2.png) center;
+    }
+    .tb1 > a { display: none;}
+    .mb1 > a { display: none;}
+    .tb2 > a { display: none;}
+    .mb2 > a { display: none;}
+}
+
+@media (min-width: 768px) and (max-width: 1339px){
+    .tb1 > a {
+        width: 100%; height: 480px;
+        margin-top: 91px;
+        background: url(../images/swiper1_tb.png) center;
+    }
+    .tb2 > a {
+        width: 100%; height: 480px;
+        margin-top: 91px;
+        background: url(../images/swiper2_tb.png) center;
+    }
+    .pc1 > a { display: none;}
+    .mb1 > a { display: none;}
+    .pc2 > a { display: none;}
+    .mb2 > a { display: none;}
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .mb1 > a {
+        width: 100%; height: 480px;
+        margin-top: 60px;
+        background: url(../images/swiper1_mb.png) center;
+    }
+    .mb2 > a {
+        width: 100%; height: 480px;
+        margin-top: 60px;
+        background: url(../images/swiper2_mb.png) center;
+    }
+    .pc1 > a { display: none;}
+    .tb1 > a { display: none;}
+    .pc2 > a { display: none;}
+    .tb2 > a { display: none;}
+}
+
+
+#zone {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#zone .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and ( min-width: 1340px){
+    #zone{
+        width: 1340px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .zone_pc1 > a{
+        width: 434px; height: 300px;
+        background-image: url(../images/zone1pc.png);
+    }
+    .zone_pc2 > a{
+        width: 434px; height: 300px;
+        background-image: url(../images/zone2pc.png);
+    }
+    .zone_pc3 > a{
+        width: 434px; height: 300px;
+        background-image: url(../images/zone3pc.png);
+    }
+    .zone_pc4 > a{
+        width: 434px; height: 300px;
+        background-image: url(../images/zone4pc.png);
+    }
+    .zone_pc5 > a{
+        width: 434px; height: 300px;
+        background-image: url(../images/zone5pc.png);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1339px){
+    #zone{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .zone_pc1 > a{
+        width: 100%; height: 300px;
+        background-image: url(../images/zone1pc.png);
+    }
+    .zone_pc2 > a{
+        width: 100%; height: 300px;
+        background-image: url(../images/zone2pc.png);
+    }
+    .zone_pc3 > a{
+        width: 100%; height: 300px;
+        background-image: url(../images/zone3pc.png);
+    }
+    .zone_pc4 > a{
+        width: 100%; height: 300px;
+        background-image: url(../images/zone4pc.png);
+    }
+    .zone_pc5 > a{
+        width: 100%; height: 300px;
+        background-image: url(../images/zone5pc.png);
+    }
+    
+}
+
+#zone_mb_only{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#zone_mb_only .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #zone{display: none;}
+    #zone_mb_only{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .zone_mb1 > a{
+        width: 100%; height: 221px;
+        background-image: url(../images/zone1mb.png);
+    }
+    .zone_mb2 > a{
+        width: 100%; height: 221px;
+        background-image: url(../images/zone2mb.png);
+    }
+    .zone_mb3 > a{
+        width: 100%; height: 221px;
+        background-image: url(../images/zone3mb.png);
+    }
+    .zone_mb4 > a{
+        width: 100%; height: 221px;
+        background-image: url(../images/zone4mb.png);
+    }
+    .zone_mb5 > a{
+        width: 100%; height: 221px;
+        background-image: url(../images/zone5mb.png);
+    }
+}
+
+

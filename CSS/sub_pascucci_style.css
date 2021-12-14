@@ -1,0 +1,432 @@
+/*************[  tb  ]************************/
+@media screen and (min-width: 768px){
+    #back_page_btn > a {
+        width: 38px; height: 38px;
+        background: url(../images/back_sub_btn_pascucci.png);
+        text-indent: -6000px;
+        overflow: hidden;
+
+        position: fixed;
+        left: 15px; top: 15px;
+        z-index: 100;
+    }
+
+    #visual_img{
+        height: 405px;
+        background: url(../images/img_sub_tb_04.png) center;
+    }
+    .inner{
+        width: 1340px;
+        margin: 0 auto;
+    }
+    .inner_mb{display: none;}
+    #visual_img > .inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .inner > ul{ padding-top: 240px;}
+    .title{
+        margin-left: 20px;
+        color: #e0002a;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .sub_title{
+        margin-left: 20px;
+        color: #e0002a;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .date{
+        margin-left: 20px;
+        color: #e0002a;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    #box_btn{ display: flex; margin-left: 20px;} 
+    .pc_btn,.mb_btn {
+        font-size: 18px;
+        font-weight: 800;
+        line-height:50px;
+        text-align: center;
+        width: 160px; height: 50px;
+        background-color: #e0002a;
+        margin-right: 10px;
+        border-radius: 4px;    
+    }
+    .pc_btn > a { color: #fff; text-decoration: none;}
+    .mb_btn > a { text-decoration: none;}
+
+    #mockup{
+        margin: 0 auto;
+        width: 613px; height: 295px;
+        background-image: url(../images/mockup_sub_tb_04.png);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    #styleguide{
+        width:100%; margin: 0 auto;
+    }
+    #styleguide > h2{
+        margin-left: 20px;
+        font-size: 28px;
+        font-weight: 800;
+        color: #e0002a;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    #styleguide > h3{
+        margin-left: 20px;
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: #4c4c4c;
+    }
+    #styleguide > h3:nth-of-type(2){
+        margin-top: 30px
+    }
+    #styleguide > h3:nth-of-type(3){
+        margin-top: 30px
+    }
+    #color { display: flex; margin-left: 20px;}
+    .color_text{ 
+        width:95px; 
+        text-align: center; 
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .color_box1{
+        width: 95px; height: 95px;
+        background-color: #e0002a;
+    }
+    .color_box2{
+        width: 95px; height: 95px;
+        background-color: #000000;
+    }
+    .color_box3{
+        width: 95px; height: 95px;
+        background-color: #6c6c6c;
+    }
+    .color_box4{
+        width: 95px; height: 95px;
+        background-color: #ffffff;
+    }
+    #color > li > ul {
+        margin-right: 10px;
+    }
+    #color > li > ul > li:nth-of-type(1){
+        box-shadow:  5px 5px 10px rgba(0,0,0,0.3);
+    }
+    #typography { margin-left: 20px;}
+    #typography > li:nth-of-type(1){
+        font-size: 22px; font-weight: 300;
+    }
+    #typography > li:nth-of-type(2){
+        font-size: 22px; font-weight: 500;
+    }
+    #typography > li:nth-of-type(3){
+        font-size: 22px; font-weight: 700;
+    }
+    #typography > li:nth-of-type(4){
+        font-size: 22px; font-weight: 900;
+    }
+    #concept{
+        font-size: 18px;
+        font-weight: 500;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 50px;
+        
+    }
+
+}
+
+/*************[  mb  ]************************/
+@media screen and (max-width: 767px){
+    #back_page_btn > a {
+        width: 38px; height: 38px;
+        background: url(../images/back_sub_btn_pascucci.png);
+        text-indent: -6000px;
+        overflow: hidden;
+
+        position: fixed;
+        left: 15px; top: 15px;
+        z-index: 100;
+    }
+
+    #visual_img{
+        height: 236px;
+        background: url(../images/img_sub_mb_04.png) center;
+    }
+    
+    .inner{
+        padding-top: 117px;
+        width: 100%;
+        margin:0 auto;
+    }
+    .title{
+        margin-left: 10px;
+        color: #e0002a;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .sub_title{
+        margin-left: 10px;
+        color: #e0002a;
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 25px;
+    }
+    .date{
+        margin-left: 10px;
+        color: #e0002a;
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 25px;
+    }
+    #box_btn{ display: flex; margin-left: 10px;} 
+    .pc_btn,.mb_btn {
+        font-size: 15px;
+        font-weight: 800;
+        line-height:30px;
+        text-align: center;
+        width: 150px; height: 30px;
+        background-color: #e0002a;
+        border-radius: 4px;    
+    }
+    .pc_btn { margin-right: 10px;}
+    .pc_btn > a {color: #fff; text-decoration: none; }
+    .mb_btn > a { text-decoration: none; }
+    #mockup{
+        margin: 0 auto;
+        width: 293px; height: 132px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-image: url(../images/mockup_sub_mb_04.png) ;
+    }
+    #styleguide{
+        width:100%; margin: 0 auto;
+    }
+    #styleguide > h2{
+        margin-left: 10px;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e0002a;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    #styleguide > h3{
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: #4c4c4c;
+    }
+    #styleguide > h3:nth-of-type(2){
+        margin-top: 30px
+    }
+    #styleguide > h3:nth-of-type(3){
+        margin-top: 30px
+    }
+    #color { display: flex; margin-left: 10px;}
+    .color_text{ 
+        width:50px; 
+        text-align: center; 
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .color_box1{
+        width: 50px; height: 50px;
+        background-color: #e0002a;
+    }
+    .color_box2{
+        width: 50px; height: 50px;
+        background-color: #000000;
+    }
+    .color_box3{
+        width: 50px; height: 50px;
+        background-color: #6c6c6c;
+    }
+    .color_box4{
+        width: 50px; height: 50px;
+        background-color: #ffffff;
+    }
+
+    #color > li > ul {
+        margin-right: 10px;
+    }
+    #color > li > ul > li:nth-of-type(1){
+        box-shadow:  5px 5px 10px rgba(0,0,0,0.3);
+    }
+    #typography { margin-left: 10px;}
+    #typography > li:nth-of-type(1){
+        font-size: 22px; font-weight: 300;
+    }
+    #typography > li:nth-of-type(2){
+        font-size: 22px; font-weight: 500;
+    }
+    #typography > li:nth-of-type(3){
+        font-size: 22px; font-weight: 700;
+    }
+    #typography > li:nth-of-type(4){
+        font-size: 22px; font-weight: 900;
+    }
+    #concept{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+/*************[  PC  ]************************/
+@media screen and (min-width: 1340px){
+    #back_page_btn > a {
+        width: 38px; height: 38px;
+        background: url(../images/back_sub_btn_pascucci.png);
+        text-indent: -6000px;
+        overflow: hidden;
+
+        position: fixed;
+        left: 37px; top: 28px;
+        z-index: 100;
+    }
+
+    #visual_img{
+        height: 500px;
+        background: url(../images/img_sub_04.png) center;
+    }
+    .inner{
+        width: 1340px;
+        margin: 0 auto;
+    }
+    #visual_img > .inner{
+        width: 1340px; height: 100%;
+        margin: 0 auto;
+    }
+    .inner > ul{ padding-top: 330px;}
+    .title{
+        margin-left: 20px;
+        color: #e0002a;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .sub_title{
+        margin-left: 20px;
+        color: #e0002a;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .date{
+        margin-left: 20px;
+        color: #e0002a;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    #box_btn{ display: flex; margin-left: 20px;} 
+    .pc_btn,.mb_btn {
+        font-size: 18px;
+        font-weight: 800;
+        line-height:50px;
+        text-align: center;
+        width: 160px; height: 50px;
+        background-color: #e0002a;
+        margin-right: 10px;
+        border-radius: 4px;    
+    }
+    .pc_btn > a { color:#fff; text-decoration: none;}
+    .mb_btn > a { text-decoration: none;}
+    
+    #mockup{
+        margin: 0 auto;
+        width: 924px; height: 434px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-image: url(../images/mockup_sub_04.png);
+    }
+    #pc_only_px{ 
+        width: 1340px; 
+        border-top: 2px solid #e0002a;
+        margin: 0 auto;
+    }
+    #styleguide{
+        width:1340px; margin: 0 auto;
+    }
+    #styleguide > h2{
+        font-size: 36px;
+        font-weight: 800;
+        color: #e0002a;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    #styleguide > h3{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        color: #4c4c4c;
+    }
+    #styleguide > h3:nth-of-type(2){
+        margin-top: 30px
+    }
+    #styleguide > h3:nth-of-type(3){
+        margin-top: 30px
+    }
+    #color { display: flex;}
+    .color_text{ 
+        width:95px; 
+        text-align: center; 
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .color_box1{
+        width: 95px; height: 95px;
+        background-color: #e0002a;
+    }
+    .color_box2{
+        width: 95px; height: 95px;
+        background-color: #000000;
+    }
+    .color_box3{
+        width: 95px; height: 95px;
+        background-color: #6c6c6c;
+    }
+    .color_box4{
+        width: 95px; height: 95px;
+        background-color: #ffffff
+    }
+
+    #color > li > ul {
+        margin-right: 10px;
+    }
+    #color > li > ul > li:nth-of-type(1){
+        box-shadow:  5px 5px 10px rgba(0,0,0,0.3);
+    }
+    #typography > li:nth-of-type(1){
+        font-size: 24px; font-weight: 300;
+    }
+    #typography > li:nth-of-type(2){
+        font-size: 24px; font-weight: 500;
+    }
+    #typography > li:nth-of-type(3){
+        font-size: 24px; font-weight: 700;
+    }
+    #typography > li:nth-of-type(4){
+        font-size: 24px; font-weight: 900;
+    }
+    #concept{
+        font-size: 18px;
+        font-weight: 500;
+        width: 800px;
+        margin-bottom: 50px;
+    }
+}

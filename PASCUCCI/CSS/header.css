@@ -1,0 +1,169 @@
+@media screen and ( min-width: 1400px) {
+    .logo > h2 > a{
+        width: 334px; height: 41px;
+        background: url(../images/logo_pc.png);
+        text-indent: -6000px;
+        overflow: hidden;
+
+        position: fixed;
+        top:60px; left:60px;
+        z-index: 200;
+    }
+    .top_menu > ul {
+        display: flex;
+
+        position: fixed;
+        top:60px; right:60px;
+        z-index: 200;
+    }
+    .top_menu > ul > li > a{
+        width: 127px; height: 28px;
+        background: url(../images/text_box.png);
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .top_menu > ul > li > a:hover{
+        color : #e0002a;
+        background: url(../images/text_box_hover.png);
+        transition: 0.3s;
+    }
+    #bottom_menu_pc{
+        z-index: 200;
+        position: fixed;
+        top:152px; left:60px;
+    }
+    #bottom_menu_pc > ul > li > a{
+        color: #e0002a;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 40px;
+        text-decoration: none ;
+    }
+    #bottom_menu_pc > ul > li > a:hover{
+        color:#fff;
+        transition: 0.3s;
+        text-shadow: 2px 2px 5px #000;
+    }
+}
+
+
+@media screen and ( max-width: 1399px){
+    #main_header_pc { display: none;}
+    #bottom_menu_pc { display: none;}
+
+    /* [S]tb_mb_only toggle */
+    #tb_mb_only > h2 > a{
+        width: 241px; height: 28px;
+        background: url(../images/logo_tb.png);
+        text-indent: -6000px;
+        overflow: hidden;
+
+        position: fixed;
+        right: 15px; top:15px;
+        z-index: 200;
+    }
+    .toggle_menu{
+        width: 52px; height: 38px;
+        background: url(../images/menu_btn.png);
+        text-indent: -6000px; overflow: hidden;
+    
+        position: fixed;
+        left: 15px; top: 15px;
+        z-index: 100;
+    }
+    #main_nav{
+        width: 100%;
+        position: fixed;
+        left: -100%; top: 0; bottom: 0;
+        z-index: 200;
+        transition-duration: 300ms;
+    }
+    #toggle_menu:checked + #main_nav{
+        left: 0;
+    }
+    #main_nav > .btn_close{
+        background: url(../images/close_btn.png);
+        width: 38px; height: 38px;
+        text-indent: -6000px; overflow: hidden;
+        position: absolute;
+        left: 15px; top: 15px;
+        z-index: 210;
+    }
+    #main_nav > ul{
+        width: 300px;
+        height: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0; top: 0;
+        z-index: 205;
+        padding-left: 15px; padding-top: 110px;
+        background-color: #fff;
+    }
+    #main_nav > ul > li{
+        cursor: pointer;
+    }
+    #main_nav > ul > li > a{
+        color: #e0002a;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 2;
+        text-decoration: none;
+    }
+    /* [E]tb_mb_only toggle */
+}
+
+
+
+@media screen and ( max-width: 767px){
+    #tb_mb_only > h2 > a{
+        width: 177px; height: 21px;
+        background: url(../images/logo_mb.png);
+        text-indent: -6000px;
+        overflow: hidden;
+
+        position: fixed;
+        right: 15px; top:15px;
+    }
+    .toggle_menu{
+        width: 28px; height: 21px;
+        background: url(../images/menu_btn_mb.png);
+        text-indent: -6000px; overflow: hidden;
+    
+        position: fixed;
+        left: 15px; top: 18px;
+        z-index: 100;
+    }
+    #main_nav > .btn_close{
+        background: url(../images/close_btn_mb.png);
+        width: 21px; height: 21px;
+        text-indent: -6000px; overflow: hidden;
+        position: absolute;
+        left: 15px; top: 18px;
+        z-index: 210;
+    }
+    #main_nav > ul{
+        width: 300px;
+        height: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0; top: 0;
+        z-index: 205;
+        padding-left: 15px; padding-top: 80px;
+        background-color: #fff;
+    }
+    #main_nav > ul{
+        width: 200px;
+    }
+    #main_nav > ul > li > a{
+        color: #e0002a;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 40px;
+        text-decoration: none;
+    }
+}

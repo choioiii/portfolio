@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KORAIL</title>
+    <link rel="stylesheet" href="CSS/master.css" />
+    <link rel="Stylesheet" href="CSS/swiper-bundle.css" />
+
+    <script src="js/menu_script.js" defer></script>
+</head>
+<body>
+
+<section id="header">
+    <header id="main_header">
+            <!-- 로고 -->
+            <h1 class="logo"><a href="#">logo</a></h1>
+            <!-- 로그인/회원가입/어린이/ENGLISH -->
+            <nav id="top_nav_pc">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">어린이</a></li>
+                    <li><a href="#">ENGLISH</a></li>
+                </ul> 
+            </nav>
+            <!-- 토글버튼 -->
+            <label class="menu" for="toggle_menu"></label>
+            <!-- 검색폼 -->
+            <input type="checkbox" id="toggle_search">
+            <label for="toggle_search" class="search"></label>
+            <div id="search_wrap">
+                <form action="">
+                    <fieldset>
+                        <legend>검색</legend>
+                        <input type="text" id="search_txt">
+                        <input type="image" id="search_btn" img src="images/search_pc.png" alt="검색 ">
+                    </fieldset>
+                </form>
+            </div>  
+    </header>
+</section>
+
+    <input type="checkbox" id="toggle_menu" />
+
+    <nav id="main_nav_wrap">
+        <ul id="top_nav_m">
+            <li id="login"><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">어린이</a></li>
+            <li><a href="#">EN</a></li>
+        </ul>
+
+        <ul id="main_nav">
+            <li>
+                <a href="#">정보공개</a>
+                <span>정보공개</span>
+                <ul class="sub_nav">
+                    <li><a href="#">정보공개 제도안내</a></li>
+                    <li><a href="#">사전정보공표</a></li>
+                    <li><a href="#">정보목록</a></li>
+                    <li><a href="#">정보공개 청구</a></li>
+                    <li><a href="#">사입실명제</a></li>
+                    <li><a href="#">소송현황</a></li>
+                    <li><a href="#">공공데이터</a></li>
+                    <li><a href="#">자료실</a></li>
+                </ul>
+    
+                <li>
+                    <a href="#">사업분야</a>
+                    <span>사업분야</span>
+                    <ul class="sub_nav">
+                        <li><a href="#">여객사업</a></li>
+                        <li><a href="#">광역철도사업</a></li>
+                        <li><a href="#">종합물류사업</a></li>
+                        <li><a href="#">자산개발사업</a></li>
+                        <li><a href="#">해외사업 · 국제협력</a></li>
+                        <li><a href="#">시설유지보수사업</a></li>
+                    </ul>
+                </li>
+    
+                <li>
+                    <a href="#">열린경영</a>
+                    <span>열린경영</span>
+                    <ul class="sub_nav">
+                        <li><a href="#">지속가능경영</a></li>
+                        <li><a href="#">철도안전</a></li>
+                        <li><a href="#">윤리경영</a></li>
+                        <li><a href="#">사회공헌</a></li>
+                        <li><a href="#">동반성장</a></li>
+                        <li><a href="#">환경경영</a></li>
+                    </ul>
+                </li> 
+    
+                <li>
+                    <a href="#">사이버홍보실</a>
+                    <span>사이버홍보실</span>
+                    <ul class="sub_nav">
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">코레일 SNS</a></li>
+                        <li><a href="#">간행물</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="#">고객지원</a>
+                    <span>고객지원</span>
+                    <ul class="sub_nav"> 
+                        <li><a href="#">고객의소리</a></li>
+                        <li><a href="#">서비스아이디어톡톡</a></li>
+                        <li><a href="#">부패추방센터</a></li>
+                        <li><a href="#">예산낭비신고센터</a></li>
+                        <li><a href="#">고객서비스현장</a></li>
+                        <li><a href="#">철도체험학습장</a></li>
+                    </ul>
+                </li>
+    
+                <li>
+                    <a href="#">코레일소개</a>
+                    <span>코레일소개</span>
+                    <ul class="sub_nav"> 
+                        <li><a href="#">공사소개</a></li>
+                        <li><a href="#">CEO</a></li>
+                        <li><a href="#">조직 · 기능</a></li>
+                        <li><a href="#">계열사</a></li>
+                        <li><a href="#">CI</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">경영공사(IR)</a></li>
+                        <li><a href="#">철도명예전당</a></li>
+                        <li><a href="#">코레일 사규</a></li>
+                        <li><a href="#">스포츠단</a></li>
+                        <li><a href="#">오케스트라</a></li>
+                    </ul>
+                </li>  
+            </li>
+        </ul> 
+
+        <label class="btn_close" for="toggle_menu"></label>
+    </nav>
+
+    <section id="visual_image">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img class="big" src="images/swiper_01_2021.png" alt="채용공고" />
+                        <img class="small" src="images/swiper_01_2021_mb.png" alt="채용공고" />
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img class="big" src="images/swiper_02_korail.png" alt="리뉴얼알림" />
+                        <img class="small" src="images/swiper_02_korail_mb.png"alt="리뉴얼알림" />
+                    </a>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="js/swiper-bundle.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+            cssMode: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            mousewheel: true,
+            keyboard: true,
+            });
+        </script>
+    </section>
+
+    <div id="korail_menu">
+        <ul>
+            <li id="letskorail"><a href="#"><img src="images/letskorail_menu_pc.png" alt="승차권예매"></a></li>
+            <li id="news"><a href="#"><img src="images/korail_news_menu_pc.png" alt="코레일뉴스"></a></li>
+        </ul>
+    </div>
+
+    <div id="notice_title">
+        <h2 id="notice_pc"><a href="#"><img src="images/Korail_notice_title_pc.png" alt=""></a></h2>
+        <h2 id="notice_mb"><a href="#"><img src="images/Korail_notice_title_mb.png" alt=""></a></h2>
+    </div>
+
+    <div id="container_notice">
+            <div class="menu_list">
+                <ul>
+                    <li>
+                        <div id="menu">
+                            <a href="#">
+                                <ul>
+                                    <article>
+                                        <li>공동연구기관 모집 공고</li>
+                                        <span>2021-09-27</span>
+                                    </article>
+                                    <p>우리공사에서는 「화차 안전설비 유도전압에 따른 안전대책 방안 연구」을 위한 공동연구기관을 모집하오니, 관심 있는 기관(업)의 많은 참여 바랍니다.</p>
+                                </ul>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="menu">
+                            <a href="#">
+                                <ul>
+                                    <article>
+                                        <li>한국철도공사 임원 공개 모집</li>
+                                        <span>2021-09-16</span>
+                                    </article>
+                                    <p>공공기관의 운영에 관한 법률」제34조,「부패방지 및 국민권익위원회의 설치와 운영에 관한 법률」제82조에 따라 공공기관 취업에 제한을 받지 않는 분 중 다음 각 호에 해당되는 분...
+                                    </p>
+                                </ul>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="menu">
+                            <a href="#">
+                                <ul>
+                                    <article>
+                                        <li>울산 구내식당 위탁 운영</li>
+                                        <span>2021-08-27</span>
+                                    </article>
+                                    <p> 한국철도공사 부산철도차량정비단 급식공고 제2021-2호- 한국철도공사 울산차량사업소 -
+                                    구내식당 위탁운영사업자 모집공고
+                                    </p>
+                                </ul>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="menu">
+                            <a href="#">
+                                <ul>
+                                    <article>
+                                        <li>공동 연구 기관 모집 공고</li>
+                                        <span>2021-08-27</span>
+                                    </article>
+                                    <p>우리공사에서는 아래와 같이 신뢰성관리 대상부품 이력관리 최적화 방안 연구를 위한 공동연구기관을 모집하오니, 관심 있는 기업(기관)의 많은 참여 바랍니다.
+                                    </p>
+                                </ul>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div id="service">
+        <ul class="service_menu">
+            <li class="service_menu_title_mb"><a href="#"><img src="images/service_01_mb.png" alt=""></a></li>
+            <li class="service_menu_title_pc"><a href="#"><img src="images/service_01.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_02.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_03.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_04.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_05.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_06.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_07.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_08.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_09.png" alt=""></a></li>
+            <li><a href="#"><img src="images/service_10.png" alt=""></a></li>
+        </ul>
+    </div>
+
+<section id="footer">
+    <footer>
+        <ul id="sns">
+            <li><a href="#"><img src="images/twitter.png" alt="트위터"></a></li>
+            <li><a href="#"><img src="images/youtube.png" alt="유튜브"></a></li>
+            <li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
+        </ul>
+        <ul id="information">
+            <li>
+                <ul id="policy">
+                    <li><a href="#">조달입찰</a></li>
+                    <li><a href="#">철도상생플랫폼</a></li>
+                    <li><a href="#">철도물류정보서비스</a></li>
+                    <li><a href="#">희망철도재단</a></li>
+                    <li><a href="#">고객서비스헌장</a></li>
+                    <li><a href="#">부패신고상담 </a></li>
+                    <li><a href="#">여객운송약관 및 부속약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#"> 열차 및 철도시설 촬영관련 안내</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <ul id="site">
+                    <li>관련사이트</li>
+                    <li><a href="#">| ALIO공공기관 경영정보 공개시스템</a></li>
+                    <li><a href="#">| 대한민국정보포털</a></li>
+                    <li><a href="#">| 안전신문</a></li>
+                    <li>상호 : 한국철도공사</li>
+                    <li>사업자등록 : 314-82-10024</li>
+                    <li>통신판매업신고 : 대구 동구-0233호</li>
+                </ul>
+            </li>
+
+            <li>
+                <ul id="company">
+                    <li>한국철도공사 34618 대전광역시 동구 중앙로 240</li>
+                    <li>대표전화 1544-7788</li>
+                    <li>팩스번호 02-361-8385</li>
+                </ul>
+            </li>
+
+            <li>
+                <ul id="copyright">
+                    <li>COPYRIGHT ⓒ 2016 By KOREA RAILROAD. ALL RIGHT RESERVED.</li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+</section>
+</body>
+</html>

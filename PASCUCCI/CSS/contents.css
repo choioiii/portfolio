@@ -1,0 +1,336 @@
+
+
+@media screen and ( min-width: 1400px){
+    #tb_mb_only { display: none;}
+    #new_munu > a {
+        width: 100%; height: 540px;
+        background: url(../images/new_menu.png)center;
+    } 
+    #espresso_bar > div > a {
+        width: 100%; height: 500px;
+        background: url(../images/espressobar01.png) center;
+    }
+    .hover{ width: 100%; height: 500px; overflow: hidden;}
+    #espresso_bar > div > a:hover{
+        box-sizing: border-box;
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+    #history {
+        width: 100%; height: 562px;
+        background: url(../images/history.png) center;
+    }
+    .inner{
+        width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .inner > ul > li:nth-of-type(1){
+        padding-top: 180px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .inner > ul > li:nth-of-type(2){
+        width: 410px; height: 49px;
+        background: url(../images/history_logo.png);
+        text-indent: -6000px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .inner > ul > li:nth-of-type(3){
+        width: 700px; height: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .inner > ul > li:nth-of-type(4){
+        width: 200px; height: 40px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 0 auto;
+        border: 2px solid #000;
+    }
+    #main_footer{
+        width: 100%;
+        background: #4c4c4c;
+        padding-top: 10px;
+    }
+    .footer_inner {width:1400px; margin: 0 auto;}
+    .footer_logo> h2 > a{
+        width: 70px; height: 70px;
+        background: url(../images/footer_logo.png);
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+        text-indent: -6000px;
+        overflow: hidden;
+    }
+    .footer_menu { 
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer_menu > li > a {
+        color: #888888;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 500;     
+    }
+    .footer_menu > li:nth-of-type(2) > a {
+        color: #e0002a;
+    }
+    .footer_info {
+        text-align: center;
+        color: #888888;
+        font-weight: 500;  
+    }
+    .footer_info > li { margin-bottom: 5px;}
+    .footer_sns{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_sns > li > a {
+        width: 50px; height: 50px;
+        margin: 5px;
+    }
+    .footer_sns > li:nth-of-type(1) > a {
+        background: url(../images/foot_ic_facebook.png);
+    }
+    .footer_sns > li:nth-of-type(2) > a {
+        background: url(../images/foot_ic_insta.png);
+    }
+    .footer_sns > li:nth-of-type(3) > a {
+        background: url(../images/foot_ic_blog.png);
+    }
+    .footer_sns > li:nth-of-type(4) > a {
+        background: url(../images/foot_ic_youtube.png);
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1399px){
+    #new_munu > a {
+        width: 100%; height: 396px;
+        background: url(../images/new_menu_tb.png)center;
+    } 
+    
+    #espresso_bar > div > a {
+        width: 100%; height: 356px;
+        background: url(../images/espressobar01_tb.png) center;
+    }
+    #history {
+        width: 100%; height: 415px;
+        background: url(../images/history_tb.png) center;
+    }
+    .inner{
+        width: 768px; margin: 0 auto;
+    }
+    .inner{ text-align: center;}
+    .inner > ul > li:nth-of-type(1){
+        padding-top: 95px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .inner > ul > li:nth-of-type(2){
+        width: 310px; height: 36px;
+        background: url(../images/history_logo_tb.png);
+        text-indent: -6000px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .inner > ul > li:nth-of-type(3){
+        width: 700px; height: 100%;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .inner > ul > li:nth-of-type(4){
+        width: 200px; height: 40px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 0 auto;
+        border: 2px solid #000;
+    }
+    #main_footer{
+        width: 100%;
+        background: #4c4c4c;
+        padding-top: 10px;
+    }
+    .footer_inner {width:768px; margin: 0 auto;}
+    .footer_logo> h2 > a{
+        width: 70px; height: 70px;
+        background: url(../images/footer_logo.png);
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+        text-indent: -6000px;
+        overflow: hidden;
+    }
+    .footer_menu { 
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer_menu > li > a {
+        color: #888888;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 500;     
+    }
+    .footer_menu > li:nth-of-type(2) > a {
+        color: #e0002a;
+    }
+    .footer_info {
+        text-align: center;
+        color: #888888;
+        font-weight: 500;  
+    }
+    .footer_info > li { margin-bottom: 5px;}
+    .footer_sns{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_sns > li > a {
+        width: 50px; height: 50px;
+        margin: 5px;
+    }
+    .footer_sns > li:nth-of-type(1) > a {
+        background: url(../images/foot_ic_facebook.png);
+    }
+    .footer_sns > li:nth-of-type(2) > a {
+        background: url(../images/foot_ic_insta.png);
+    }
+    .footer_sns > li:nth-of-type(3) > a {
+        background: url(../images/foot_ic_blog.png);
+    }
+    .footer_sns > li:nth-of-type(4) > a {
+        background: url(../images/foot_ic_youtube.png);
+    }
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    #new_munu > a {
+        width: 100%; height: 216px;
+        background: url(../images/new_menu_mb.png)center;
+    } 
+    
+    #espresso_bar > div > a {
+        width: 100%; height: 192px;
+        background: url(../images/espressobar01_mb.png) center;
+    }
+    #history {
+        width: 100%; height: 231px;
+        background: url(../images/history_mb.png) center;
+    }
+    .inner{
+        width: 320px; margin: 0 auto;
+    }
+    .inner{ text-align: center;}
+    .inner > ul > li:nth-of-type(1){
+        padding-top: 30px;
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .inner > ul > li:nth-of-type(2){
+        width: 220px; height: 25px;
+        background: url(../images/history_logo_mb.png);
+        text-indent: -6000px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .inner > ul > li:nth-of-type(3){
+        width: 300px; height: 100%;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .inner > ul > li:nth-of-type(4){
+        width: 100px; height: 25px;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 25px;
+        margin: 0 auto;
+        border: 2px solid #000;
+    }
+    #main_footer{
+        width: 100%;
+        background: #4c4c4c;
+        padding-top: 10px;
+    }
+
+    .footer_logo> h2 > a{
+        width: 70px; height: 70px;
+        background: url(../images/footer_logo.png);
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+        text-indent: -6000px;
+        overflow: hidden;
+    }
+    .footer_menu { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer_menu > li > a {
+        font-size: 11px;
+        color: #888888;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-weight: 500;     
+    }
+    .footer_menu > li:nth-of-type(2) > a {
+        color: #e0002a;
+    }
+    .footer_info {
+        font-size: 11px;
+        text-align: center;
+        color: #888888;
+        font-weight: 500;  
+    }
+    .footer_info > li { margin-bottom: 5px;}
+    .footer_sns{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_sns > li > a {
+        width: 50px; height: 50px;
+        margin: 5px;
+    }
+    .footer_sns > li:nth-of-type(1) > a {
+        background: url(../images/foot_ic_facebook.png);
+    }
+    .footer_sns > li:nth-of-type(2) > a {
+        background: url(../images/foot_ic_insta.png);
+    }
+    .footer_sns > li:nth-of-type(3) > a {
+        background: url(../images/foot_ic_blog.png);
+    }
+    .footer_sns > li:nth-of-type(4) > a {
+        background: url(../images/foot_ic_youtube.png);
+    }
+    
+}
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+
+
+
+
+
+#main_footer {
+    padding-top: 24px;
+    margin-bottom: 50px;
+    width: 1899px; height: 620px;
+    background: #ebebeb;
+    margin: 0 auto;
+}
+
+#footer_logo >a{
+    width:1340px; height:56px; margin: 0 auto;
+    text-indent: -6000px; overflow: hidden;
+    background: url(../images/Audi_logo_F.png)no-repeat;
+    
+}
+#f_menush{
+    padding-left: 285px;
+    width:906px;
+    height:302px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#f_menush > ul{
+    font-weight: 300;
+}
+#f_menu_ttl{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;  
+}
+
+#f_menusl{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+#nav_menu > ul {
+    width: 1340px;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 60px;
+    display: flex;
+}
+
+#f_menusl > nav {
+    margin-bottom: 25px;
+    display: flex;
+}
+#isntagram{
+    margin-left: 130px;
+}
+#facebook{
+    margin-left: 10px;
+}
+
+
+#main_footerl{
+    padding-top: 25px;
+    height: 100px;
+    width:100%; 
+    padding-bottom: 50px;
+    background: #c9c9c9;
+    
+}
+
+
+
+#footerl_list{
+    justify-content: space-between;
+    margin-left: 787px;
+    width: 346px;
+    height: 118px;
+    display: flex;
+}
+
+

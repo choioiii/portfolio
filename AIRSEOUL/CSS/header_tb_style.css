@@ -1,0 +1,158 @@
+@media (min-width: 768px) and (max-width: 1339px){
+    #side_menu { display: none;}
+    #main_header{
+        width:100%; height:89px;
+        position: fixed;
+        left:0; top:0;
+        z-index: 200;
+        border-bottom: 3px solid #06b191;
+        background-color:#fff;
+        margin: 0 auto;
+    }
+    #logo > a{
+        margin-top: 28px;
+        margin-left: 20px;
+        width: 240px; height: 34px;
+        background: url(../images/airseoul_logo.png);
+        text-indent: -6000px; overflow: hidden;
+    }
+    label.menu{
+        background: url(../images/tb_menu.png);
+        width: 46px; height: 32px;
+        text-indent: -6000px; overflow: hidden;
+        position: absolute;
+        right: 20px; top: 29px;
+    }
+    
+    /******/
+    #main_nav{
+        position: fixed; 
+        z-index: 200;
+        transition-duration: 0.4s;
+    }
+    #tb_only  > h3 > a{ text-decoration: none;}
+    #main_nav{
+        width: 320px;
+        height: 100%;
+        top: 91px; right: -5000px;
+    }
+    #toggle_menu:checked + #main_nav{
+        right: 0;
+    }
+    #main_nav > ul{
+        width: 100%; height: 100%;
+        position: absolute;
+        left: 0; top: 0;
+        z-index: 200;
+        background-color: #06b191;
+        overflow: auto;
+    }
+    #main_nav > ul > li{}
+    #main_nav > ul > li > h3 { 
+        color: #fff;
+        font-size: 16px;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-weight: 900;
+    }
+    #main_nav > ul > li > a{ display: none;}
+    /* 세부메뉴 */
+    #main_nav > ul > li > .sub_nav{ }
+    #main_nav > ul > li > .sub_nav > li{ 
+        height: 0;
+        overflow: hidden;
+        transition-duration: 300ms;
+    }
+    #main_nav > ul > li.active > .sub_nav > li{ 
+        height: 35px;
+        background-color: #f6f6f6;
+    }
+        #main_nav > ul > li > .sub_nav > li > a{ 
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            font-weight: 700;
+        }
+    
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #side_menu { display: none;}
+    #main_header{
+        width:100%; height:58px;
+        position: fixed;
+        left:0; top:0;
+        z-index: 100;
+        border-bottom: 3px solid #06b191;
+        background-color:#fff;
+        margin: 0 auto;
+    }
+    #logo > a{
+        margin-top: 19px;
+        margin-left: 10px;
+        width: 138px; height: 20px;
+        background: url(../images/airseoul_logo_mb.png);
+        text-indent: -6000px; overflow: hidden;
+    }
+    label.menu{
+        background: url(../images/mb_menu.png);
+        width: 28px; height: 20px;
+        text-indent: -6000px; overflow: hidden;
+        position: absolute;
+        right: 20px; top: 19px;
+    }
+    
+    /******/
+    #main_nav{
+        position: fixed; 
+        z-index: 200;
+        transition-duration: 0.4s;
+    }
+    #tb_only  > h3 > a{ text-decoration: none;}
+    #main_nav{
+        width: 320px;
+        height: 100%;
+        top: 60px; right: -5000px;
+        overflow: auto;
+    }
+    #toggle_menu:checked + #main_nav{
+        right: 0;
+    }
+    #main_nav > ul{
+        width: 100%; height: 100%;
+        position: absolute;
+        left: 0; top: 0;
+        z-index: 200;
+        background-color: #06b191;
+        overflow: auto;
+    }
+    #main_nav > ul > li{}
+    #main_nav > ul > li > h3 { 
+        color: #fff;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-weight: 900;
+    }
+    #main_nav > ul > li > a{ display: none;}
+    /* 세부메뉴 */
+    #main_nav > ul > li > .sub_nav{ }
+    #main_nav > ul > li > .sub_nav > li{ 
+        height: 0;
+        overflow: hidden;
+        transition-duration: 300ms;
+    }
+    #main_nav > ul > li.active > .sub_nav > li{ 
+        height: 35px;
+        background-color: #f6f6f6;
+    }
+        #main_nav > ul > li > .sub_nav > li > a{ 
+            font-size: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            font-weight: 700;
+        }
+}
+
+

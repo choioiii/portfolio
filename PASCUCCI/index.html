@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/master.css"/>
+    <link rel="stylesheet" href="CSS/swiper-bundle.css"/>
+    <script src="js/menu_script.js" defer></script>
+    <title>PASCUCCI</title>
+</head>
+<body>
+    <header id="main_header_pc">
+        <div class="logo">
+            <h2><a href="#">logo</a></h2>
+        </div>
+
+        <div class="top_menu">
+            <ul>
+                <li>
+                    <a href="#">해피포인트</a>
+                </li>
+
+                <li>
+                    <a href="#">가맹사업안내</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="bottom_menu_pc">
+        <ul>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">CAFFE</a></li>
+            <li><a href="#">BRAND</a></li>
+            <li><a href="#">CUSTOMER</a></li>
+            <li><a href="#">ESPRESSO BAR</a></li>
+        </ul>
+    </div>
+
+    <div id="tb_mb_only">
+        <h2><a href="#">logo</a></h2>
+        <label for="toggle_menu" class="toggle_menu">메뉴토글버튼</label>
+
+        <input type="checkbox" id="toggle_menu" />
+        <nav id="main_nav">
+            <h2 class="blind">메인메뉴</h2>
+            <label for="toggle_menu" class="btn_close">메뉴닫기 </label>
+            <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">CAFFE</a></li>
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">CUSTOMER</a></li>
+                <li><a href="#">ESPRESSO BAR</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="visual_img">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                            <div class="pc1"><a href="#"></a></div>
+                            <div class="tb1"><a href="#"></a></div>
+                            <div class="mb1"><a href="#"></a></div>
+                    </div>
+
+                    <div class="swiper-slide">
+                            <div class="pc2"><a href="#"></a></div>
+                            <div class="tb2"><a href="#"></a></div>
+                            <div class="mb2"><a href="#"></a></div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <!-- Swiper JS -->
+            <script src="js/swiper-bundle.js"></script>
+            
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+                autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+                },
+                });
+            </script>
+    </div>
+
+    <div id="new_munu">
+        <a href="#"></a>
+    </div>
+
+    <div id="espresso_bar">
+        <div class="hover">
+            <a href="#"></a>
+        </div>
+    </div>
+
+    <div id="history">
+        <div class="inner">
+            <ul>
+                <li>전통과 전통의 만남</li>
+                <li>logo</li>
+                <li>
+                        1883년 이탈리아 몬테펠트로에서 탄생한 카페 파스쿠찌. 현재 이탈리아, 영국, 스페인, 미국 등 세계 20여개국 40개 도시에 진출한 글로벌 브랜드로 달성하였습니다.
+                </li>
+                <li><a href="#">브랜드스토리 보기</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer id="main_footer">
+        <div class="footer_inner">
+            <div class="footer_logo">
+                <h2><a href="#">Logo</a></h2>
+            </div>
+            <ul class="footer_menu">
+                <li><a href="#">해피포인트</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">영상정보처리기기운영관리방침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">윤리신고센터</a></li>
+                <li><a href="#">거래희망사전등록</a></li>
+            </ul>
+
+            <ul class="footer_info">
+                <li>(주) 파리크라상사업자등록 번호: 129-81-07244</li>
+                <li>경기도 성남시 중원구 사기막골로31번길 18FAX. 0505-073-0210고객상담센터 080-731-2027</li>
+                <li>ALL RIGHTS RESERVED ⓒ 2016 THE PASCUCCI, PARIS CROISSANT CO., LTD.</li>
+            </ul>
+
+            <ul class="footer_sns">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

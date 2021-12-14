@@ -1,0 +1,209 @@
+@import url( common.css);
+@import url( header_style.css);
+@import url( footer_style.css);
+
+/*[Section1]*/
+#visual{   
+    width: 100%;
+    height: 862px;
+    background: url(../images/etron_gt_bg.png)
+    center no-repeat;  
+    padding-top: 670px;    
+    box-sizing: border-box;  
+}
+
+#etron_txt{
+    width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#etron_txt > p {
+    width: 631px;
+    height: 127px;
+}
+#etron_txt > p > strong{
+    color:#fff;
+    line-height: 60px;
+    font-size: 72px;
+    font-weight: 700;
+}
+#etron_txt > p > span{
+    color:#fff;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#etron_txt > .more{
+    width: 278px; height: 72px;
+    border: 3px solid #fff;
+    margin-top: 50px; margin-right: 22px;
+    font-size: 36px;
+    color:#fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 70px;
+}
+/*[//Section1]*/
+
+/*[Section2]
+
+tabbar.css
+
+*/
+
+/*[Section3]*/
+#video{
+    background: url(../images/Future.png)no-repeat;
+    background-position: bottom;
+    width:1340px;
+    height: 1180px;
+    margin: 0 auto;
+    border: 1px solid #0000; 
+}
+
+#future{
+    margin-top: 275px;
+    color: #fff;
+    text-align: center;
+}
+
+#future > p > strong{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+#future > p > span{
+    font-size: 30px;
+    font-weight: 700; 
+    line-height: 100px;
+}
+
+#video_point{
+    
+    margin-top: 300px;
+    margin-left: 600px;
+}
+/*[//Section3]*/
+
+
+/*[Section4]*/
+#event{
+    margin: 0 auto;
+    width: 1340px;
+    height: 900px;
+    
+}
+#event > h1{
+    margin-top: 100px;
+    text-indent: -6000px;
+    overflow: hidden;
+    width: 303px;
+    height: 209px;
+    background: url(../images/EVENT_logo.png)no-repeat;
+    background-position: center;
+    margin:0 auto;
+    
+}
+
+
+#event >ul{
+    text-align: center;
+    width: 1340px;
+    height: 514px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text > h3{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -3;
+}
+.text > p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.text > a{
+    
+    font-size: 20px;
+    font-weight: 700;
+    line-height:57px;
+    margin: 0 auto;
+    width:224px;
+    height: 57px;
+    border: 3px solid #000;
+    
+}
+/*[//Section4]*/
+
+/*[Section5]*/
+#sns > h1{
+    margin-top: 50px;
+    text-indent: -6000px;
+    overflow: hidden;
+    width: 303px;
+    height: 209px;
+    background: url(../images/SNS_logo.png)no-repeat;
+    background-position: center;
+    margin:0 auto;
+
+}
+#sns{
+    margin: 0 auto;
+    width: 1899px;
+    height: 1034px; 
+    margin-bottom: 50px;   
+}
+
+#SNS_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+#sns > a{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height:57px;
+    margin: 0 auto;
+    width:224px;
+    height: 57px;
+    border: 3px solid #000;
+
+}
+
+
+    #SNS_hover1 > li:hover > a >img {
+        opacity:0;
+        transition-duration: 0.5s;    
+    }
+
+    #SNS_hover1 > li > a:hover {
+        background: url(../images/SNS1_hover.png);
+    }
+
+    #SNS_hover2 > li:hover > a >img {
+        opacity: 0;
+        transition-duration: 0.5s;
+    }
+
+    #SNS_hover2 > li > a:hover {
+        background: url(../images/SNS2_hover.png);
+    }
+
+    #SNS_hover3 > li:hover > a >img {
+        opacity: 0;
+        transition-duration: 0.5s;
+    }
+
+    #SNS_hover3 > li > a:hover {
+        background: url(../images/SNS3_hover.png);
+    }
+
+    

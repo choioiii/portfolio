@@ -1,0 +1,146 @@
+/* header_pc_style.css */
+
+section#header{
+    width:100%; height: 152px;
+    background-image: url(../images/header_bg.png);
+}
+
+@media screen and ( min-width: 1340px){
+    #main_header{
+        width: 1340px; height: 95px;
+        margin: 0 auto;
+        position: relative;
+        background-color: #11428f;
+    }
+        #main_header > .logo > a{
+            width: 276px; height: 63px;
+            position: absolute;
+            left: 24px; top: 16px;
+            background: url(../images/korail_logo.png);
+            text-indent: -6000px; overflow: hidden;
+        }
+
+        #top_nav_pc{
+            position: absolute;
+            left: 781px; top: 61px;
+        }
+        #top_nav_pc > ul{
+            display: flex;
+        }
+        #top_nav_pc > ul > li{
+            margin-right: 20px;
+        }
+        #top_nav_pc > ul > li > a{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+    label.menu, label.search{ display: none;}
+
+    #search_wrap{
+        position: absolute;
+        right:0; top:45px;
+        height: 34px;
+        background-color: #fff;
+    }
+        #search_wrap fieldset {
+            display: flex;
+        }
+        #search_txt{
+            width: 225px;
+            box-sizing: border-box;
+            padding: 0 10px;
+        }
+            #main_nav_wrap{
+                width: 100%; height: 57px;
+                overflow: hidden;
+                transition-duration: 300ms;
+            
+                position: absolute;
+                left: 0; top: 95px;
+                z-index: 100;
+            }
+            #main_nav_wrap:hover{
+                height: 455px;
+            }
+                #top_nav_m{ display: none;}
+            
+                #main_nav{
+                background-image: url(../images/menu_scroll_bg.png);
+                width: 1340px; 
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                }
+            
+                    #main_nav > li{}
+                    #main_nav > li > a{
+                        width: 220px; height: 57px;
+                        font-size: 20px;
+                        color:#fff;
+                        font-weight: 700;
+                        text-align: center; line-height: 50px;
+                        text-decoration: none;
+                    }
+
+                    #main_nav > li > span{ display: none;}
+            
+                    /* 세부메뉴 */
+                    
+                    #main_nav > li:nth-child(1) > .sub_nav > li > a{
+                        text-align: left;
+                        padding-left: 70px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 35px;
+                    }
+
+                    #main_nav > li:nth-child(2) > .sub_nav > li > a{
+                        text-align: left;
+                        padding-left: 70px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 35px;
+                    }
+
+                    #main_nav > li:nth-child(3) > .sub_nav > li > a{
+                        text-align: left;
+                        padding-left: 70px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 35px;
+                    }
+
+                    #main_nav > li:nth-child(4) > .sub_nav > li > a{
+                        text-align: left;
+                        padding-left: 50px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 35px;
+                    }
+
+                    #main_nav > li:nth-child(5) > .sub_nav > li > a{
+                        text-align: left;
+                        padding-left: 70px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 35px;
+                    }
+
+                    #main_nav > li:nth-child(6) > .sub_nav > li > a{
+                        
+                        text-align: left;
+                        padding-left: 60px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 35px;
+                    }
+
+                    #main_nav > li > .sub_nav > li:hover > a{
+                        color: #f90;
+                    }
+}
+
